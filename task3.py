@@ -12,3 +12,13 @@
 # solution for x
 #
 # test case: 5, 1, 11 should give x = 2
+
+a = input("a is")
+b = input("b is")
+c = input("c is")
+a = int(a)
+b = int(b)
+c = int(c)
+
+x = ((c-b)/a)
+print(x)
