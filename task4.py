@@ -18,7 +18,8 @@
 import math
 r = input("r is")
 h = input("h is")
-r = int(r)
-h = int(h)
+r = float(r)
+h = float(h)
 
-sa = ((math.pi)*r*(r + h**2 + r**2)**0.5)
+sa = math.pi*r*(r + (h**2 + r**2)**0.5)
+print(f"surface area= {sa}")
